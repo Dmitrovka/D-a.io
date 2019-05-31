@@ -1,0 +1,91 @@
+.mainmenu {
+    background: #444;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 30px 0
+}
+.mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+.mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+.mainmenu ul li a:hover {
+    background-color: #666;
+}
+  p.a{
+    text-align: center;
+     width: 300px;
+  }
+  div {
+    padding-right: 3px;
+    border: #00ffff;
+    border: 20px;
+  
+  }
+  h2{
+    text-align: center;
+  }
+  body {
+   background: rgb(226, 221, 221);
+  }
+  h1{
+    text-align: center;
+  }
+
+.left {
+  float:left; 
+  margin: 7px 7px 7px 0; }
+  p{
+    padding-top: 50px;
+  }
+  h3 {text-align: center}
+  
+  /*submenu*/
+  .mainmenu li ul{
+    position: absolute;
+    min-width: 150 px;
+    display: none;
+  }
+  .mainmenu li > ul li{
+    border: 1px solid #c7c7c7
+  }
+  .mainmenu li > ul li a{
+    padding: 10px ;
+    text-transform: none;
+    background: rgb(83, 83, 83) 
+  }
+  
+  .mainmenu li:hover > ul{
+    display: block;
+  }
+
+  *::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
